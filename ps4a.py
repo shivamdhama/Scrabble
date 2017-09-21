@@ -12,8 +12,7 @@ SCRABBLE_LETTER_VALUES = {
 }
 
 # -----------------------------------
-# Helper code
-# (you don't need to understand this helper code)
+
 
 WORDLIST_FILENAME = "words.txt"
 
@@ -50,11 +49,9 @@ def getFrequencyDict(sequence):
     return freq
 	
 
-# (end of helper code)
-# -----------------------------------
 
 #
-# Problem #1: Scoring a word
+
 #
 def getWordScore(word, n):
     """
